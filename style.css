@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+    margin-top:10rem;
+}
+.decrease,.increase,.reset{
+color:white;
+border-radius:0.5rem;
+padding:1rem 1.5rem;
+background-color: rgb(76, 180, 34);
+display: inline-block;
+cursor: pointer;
+}
+.count{
+    font-size:3rem;
+}
